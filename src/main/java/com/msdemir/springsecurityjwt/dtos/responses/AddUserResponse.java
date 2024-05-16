@@ -2,7 +2,7 @@ package com.msdemir.springsecurityjwt.dtos.responses;
 
 import java.time.Instant;
 
-public record UserAddResponse(Long id,
+public record AddUserResponse(Long id,
                               Instant createdAt,
                               Instant updatedAt,
                               String name,
